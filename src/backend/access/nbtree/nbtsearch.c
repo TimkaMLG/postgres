@@ -382,6 +382,8 @@ _bt_binsrch(Relation rel,
 	high++;						/* establish the loop invariant for high */
 
 	cmpval = key->nextkey ? 0 : 1;	/* select comparison value */
+	
+	/*here is my first comment in postgres*/
 
 	while (high > low)
 	{

@@ -1,0 +1,6 @@
+# my_nbtree extension
+comment = 'My nb_tree extension'
+default_version = '1.0'
+module_pathname = '$libdir/my_nbtree'
+relocatable = true
+trusted = true
